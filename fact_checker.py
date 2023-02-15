@@ -5,7 +5,7 @@ from langchain.chains import SimpleSequentialChain
 import sys
 
 def fact_check(question):
-    llm = OpenAI(temperature=0.7,openai_api_key='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')
+    llm = OpenAI(temperature=0.7,openai_api_key='YOUR OPENAI API KEY')
     template = """{question}\n\n"""
     prompt_template = PromptTemplate(input_variables=["question"], template=template)
     question_chain = LLMChain(llm=llm, prompt=prompt_template)
