@@ -9,9 +9,13 @@ This repo is a simple demonstration of using [langchain](https://github.com/hwch
 
 ## to run
 
-Make sure you have langchain installed (`pip install langchain`). Then run
+1. Make sure you have langchain installed (`pip install langchain`). 
 
-`python3 fact_checker.py 'insert question here'`
+2. Add your api key in `fact_checker.py`
+
+Then run
+
+3. `python3 fact_checker.py "insert question here"`
 
 *Be sure to wrap your question in quotes if you're passing it as a command line argument.*
 
