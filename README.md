@@ -11,15 +11,13 @@ This repo is a simple demonstration of using [langchain](https://github.com/hwch
 
 1. Make sure you have langchain installed (`pip install langchain`). 
 
-2. Add your api key in `fact_checker.py`
+2. Add your api key in `fact_checker.py` Get it from https://platform.openai.com/account/api-keys
 
 Then run
 
 3. `python3 fact_checker.py "insert question here"`
 
 *Be sure to wrap your question in quotes if you're passing it as a command line argument.*
-
-Alternatively, you can use the provided `fact_checker.ipynb` notebook.
 
 ## example
 
