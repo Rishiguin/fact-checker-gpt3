@@ -1,6 +1,6 @@
 # fact checking with prompt chaining
 
-This repo is a simple demonstration of using [langchain](https://github.com/hwchase17/langchain) to do fact-checking with prompt chaining. How it works:
+
 - you ask your desired LLM a question
 - the LLM generates an initial answer to the question
 - the LLM self-interrogates what the assumptions were that went into that answer
